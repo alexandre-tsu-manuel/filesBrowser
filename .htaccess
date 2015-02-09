@@ -1,0 +1,106 @@
+HeaderName /ftp/head.htm
+ReadmeName /ftp/foot.htm
+
+IndexIgnore .htaccess Thumbs.db db _notes
+IndexOptions SuppressHTMLPreamble FancyIndexing FoldersFirst IgnoreCase
+IndexOrderDefault Ascending Description
+
+AddIcon (IMG,/ftp/icons/image.gif) .svg .SVG .wmf .WMF 
+AddIcon (IMG,/ftp/icons/gif.gif) .gif .GIF
+AddIcon (IMG,/ftp/icons/jpg.gif) .jpg .JPG .jpeg .JPEG
+AddIcon (IMG,/ftp/icons/png.gif) .png .PNG
+AddIcon (IMG,/ftp/icons/psd.gif) .psd .PSD
+AddIcon (IMG,/ftp/icons/ico.gif) .ico .ICO
+AddIcon (IMG,/ftp/icons/tif.png) .tif .TIF .tiff .TIFF
+
+AddDescription "Image PNG"       *.png *.PNG
+AddDescription "Image JPG"       *.jpg *.JPG
+AddDescription "Image BMP"       *.bmp *.BMP
+AddDescription "Image SVG"       *.svg *.SVG
+AddDescription "Image GIF"       *.gif *.GIF
+AddDescription "Image WMF"       *.wmf *.WMF
+AddDescription "Image PSD"       *.psd *.PSD
+AddDescription "Image ICO"       *.ico *.ICO
+
+AddIcon (VIDEO,/ftp/icons/wmp.png)  .mov .MOV .avi .AVI .mpg .MPG .wmv .WMV
+AddDescription "Video QuickTime"    *.mov *.MOV
+AddDescription "Video AVI"          *.avi *.AVI
+AddDescription "Video MPEG"         *.mpg *.MPG
+AddDescription "Video WMV"          *.wmv *.WMV
+
+AddIcon (AUDIO,/ftp/icons/wmp.png) .wma .mp3 .mp4 .midi .mid .WMA .MP3 .MP4 .MIDI .MID
+AddDescription "Audio MP3"     *.mp3 *.MP3
+AddDescription "Audio MP4"     *.mp4 *.MP4
+AddDescription "Audio WMA"     *.wma *.WMA
+AddDescription "Audio MIDI"    *.mid *.midi
+
+AddIcon (FLA,/ftp/icons/fla.gif)      .fla
+AddIcon (AS,/ftp/icons/as.gif)        .as
+AddIcon (FLV,/ftp/icons/flv.gif)      .flv
+AddDescription "Fichier Flash Video" *.flv
+AddDescription "Projet Flash"         *.fla
+AddDescription "Fichier ActionScript"          *.as
+
+AddIcon (SWF,/ftp/icons/swf.png)    .swf
+AddDescription "Animation Flash"       *.swf
+
+AddIcon (TXT,/ftp/icons/txt.png) .txt
+AddDescription "Fichier de texte brut" *.txt
+
+AddIcon (DOC,/ftp/icons/word.png) .doc .rtf .docx
+AddDescription "Document Word" *.doc *.rtf *.docx
+
+AddIcon (DOC,/ftp/icons/powerpoint.png) .ppt .pptx
+AddDescription "Présentation PowerPoint" *.ppt *.pptx
+
+AddIcon (DOC,/ftp/icons/excel.png) .xls .xlss
+AddDescription "Feuille de calcul Excel" *.xls *.xlsx
+
+AddIcon (PHP,/ftp/icons/php.gif) .php .phtml
+AddDescription "Page Web PHP" *.php
+AddDescription "Page Web PHP" *.phtml
+
+AddIcon (HTM,/ftp/icons/web.gif) .htm .html .HTM .HTML .xhtml .XHTML
+AddDescription "Page Web HTML" *.htm *.HTM
+AddDescription "Fichier HTML Compilé" *.chm
+AddIcon (HTC,/ftp/icons/chm.gif) .chm
+
+AddIcon (HTC,/ftp/icons/ini.png) .htc
+AddDescription "Comportement IExplorer" *.htc
+
+AddIcon (CSS,/ftp/icons/css.png) .css
+AddDescription "Feuille de style CSS" *.css
+AddIcon (CSS,/ftp/icons/js.png) .js
+AddDescription "Fichier Javascript" *.js
+AddIcon (CSS,/ftp/icons/xml.png) .xml
+AddDescription "Fichier XML" *.xml
+
+AddIcon (EXE,/ftp/icons/exe.png) .exe .EXE
+AddDescription "Exécutable" *.exe *.EXE
+
+AddIcon (PDF,/ftp/icons/pdf.png) .pdf .PDF
+AddDescription "Document Adobe PDF" *.pdf *.PDF
+
+AddIcon (ARCHIVE,/ftp/icons/archive.gif) .jar .zip .rar .arj .arc .tar .targz .gz
+AddDescription "Archive ZIP" *.zip *.ZIP
+AddDescription "Archive RAR" *.rar *.RAR
+AddDescription "Archive ARJ" *.arj *.ARJ
+AddDescription "Archive ARC" *.arc *.ARC
+AddDescription "Archive TAR" *.tar *.TAR
+AddDescription "Archive JAR" *.jar *.JAR
+AddDescription "Archive GZ" *.gz *.GZ
+AddDescription "Archive TARGZ" *.targz *.TARGZ
+
+AddIcon (C,/ftp/icons/c.gif) .c
+AddDescription "Fichier C" *.c
+AddIcon (H,/ftp/icons/h.gif) .h
+AddDescription "Fichier d'ent-tête" *.h
+AddIcon (VCPROJ,/ftp/icons/vcproj.gif) .vcproj
+AddDescription "Projet Visual C++" *.vcproj
+
+AddIcon (PAR,/ftp/icons/dir_par.png) ..
+AddIcon (DIR,/ftp/icons/dir.png) ^^DIRECTORY^^
+AddDescription "Dossier parent" ..
+AddDescription "Répertoire" */
+
+DefaultIcon /ftp/icons/txt.png

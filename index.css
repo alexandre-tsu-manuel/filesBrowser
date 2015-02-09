@@ -1,0 +1,56 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	background: url("http://nayi.free.fr/ftp/latte.gif") repeat-x top #EEEEEE;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #494949;
+}
+
+pre
+{
+	background: #FFFFFF;
+	margin: 20px;
+	margin-top: 0px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border: 1px solid #AAAAAA;
+	padding-bottom: 15px;
+}
+
+pre img
+{
+	margin-top: 10px;
+	margin-bottom: -10px;
+	border: none;
+}
+
+img
+{
+	border: none;
+}
+
+hr
+{
+	display: none;
+}
+
+a, a:link, a:active, a:visited
+{
+	font-weight: bold;
+	color: #494949;
+}
+
+a:hover
+{
+	color: #DAA520;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
